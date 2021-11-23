@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Sarabun';
+  src: url('/Sarabun-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('/Sarabun-Bold.ttf');
+  font-weight: bold;
+}
+
+$primary: #4584b6;
+$family-primary: 'Sarabun', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+@import "../node_modules/bulma/bulma.sass";

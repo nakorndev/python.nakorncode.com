@@ -1,0 +1,25 @@
+{
+  "name": "python.nakorncode.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/main.scss main.min.css --no-source-map && cleancss main.min.css -o main.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakorndev/python.nakorncode.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nakorndev/python.nakorncode.com/issues"
+  },
+  "homepage": "https://github.com/nakorndev/python.nakorncode.com#readme",
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "clean-css-cli": "^5.4.2",
+    "sass": "^1.43.4"
+  }
+}
