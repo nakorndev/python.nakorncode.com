@@ -4,6 +4,7 @@ const HtmlMinimizerPlugin = require('html-minimizer-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
+const Critters = require('critters-webpack-plugin')
 
 module.exports = {
   entry: './src/index.js',
@@ -22,6 +23,7 @@ module.exports = {
       template: 'src/index.html',
     }),
     new MiniCssExtractPlugin(),
+    new Critters(),
   ],
   optimization: {
     minimizer: [
