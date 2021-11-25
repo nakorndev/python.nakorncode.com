@@ -27,6 +27,9 @@
     * {
       line-height: 1.75;
     }
+    h1, h2, h3 {
+      line-height: 1.5 !important;
+    }
     body {
       background-color: #f7f7f7;
     }
@@ -83,6 +86,20 @@
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
       cursor: pointer;
     }
+    @media screen and (max-width: 768px) {
+      .python-logo {
+        width: 150px;
+      }
+      h1 {
+        font-size: 1.7em !important;
+      }
+      h2, h2.is-size-5 {
+        font-size: 1.2em !important;
+      }
+      .button.is-medium {
+        font-size: 1rem !important;
+      }
+    }
   </style>
 </head>
 
@@ -96,7 +113,7 @@
           <h2 data-aos="fade-right" data-aos-delay="450" class="has-text-shadow has-text-white has-text-weight-normal is-size-5">สำหรับนักเรียนมัธยมศึกษา 🎒 นักศึกษามหาวิทยาลัย 🎓 และบุคคลทั่วไปที่สนใจ 😀</h2>
           <div data-aos="flip-up" data-aos-delay="900" class="mt-5">
             <a ref="#" class="button is-hidden-tablet">
-              จากราคา&nbsp;<del class="has-text-danger">1,300 บาท</del>&nbsp;ลดเหลือเพียง&nbsp;<b class="has-text-success">390 บาท</b>&nbsp;<u>คลิกเลย!</u>
+              &nbsp;<del class="has-text-danger">1,300.-</del>&nbsp;ลดเหลือ&nbsp;<b class="has-text-success">390.-</b>&nbsp;<u>คลิกเลย!</u>
             </a>
             <a ref="#" class="button is-medium is-hidden-mobile">
               จากราคา&nbsp;<del class="has-text-danger">1,300 บาท</del>&nbsp;ลดเหลือเพียง&nbsp;<b class="has-text-success">390 บาท</b>&nbsp;<u>คลิกเลย!</u>
