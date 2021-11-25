@@ -19,6 +19,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
+  <script src="/aos.js"></script>
+
+  <link rel="stylesheet" href="/aos.css">
   <link rel="stylesheet" href="/main.min.css">
   <style>
     * {
@@ -80,13 +83,13 @@
     <div class="hero-body">
       <div class="container">
         <div class="content has-text-centered">
-          <img class="python-logo" src="/android-chrome-192x192.png" alt="">
-          <h1 class="has-text-shadow has-text-white">คอร์สเรียน Python ระดับพื้นฐาน</h1>
-          <h2 class="has-text-shadow has-text-white has-text-weight-normal is-size-5">สำหรับนักเรียนมัธยมศึกษา 🎒 นักศึกษามหาวิทยาลัย 🎓 และบุคคลทั่วไปที่สนใจ 😀</h2>
-          <a href="#" class="mt-5 button is-medium">
+          <img data-aos="fade-right" data-aos-delay="150" class="python-logo" src="/android-chrome-192x192.png" alt="">
+          <h1 data-aos="fade-right" data-aos-delay="300" class="has-text-shadow has-text-white">คอร์สเรียน Python ระดับพื้นฐาน</h1>
+          <h2 data-aos="fade-right" data-aos-delay="450" class="has-text-shadow has-text-white has-text-weight-normal is-size-5">สำหรับนักเรียนมัธยมศึกษา 🎒 นักศึกษามหาวิทยาลัย 🎓 และบุคคลทั่วไปที่สนใจ 😀</h2>
+          <a data-aos="flip-up" data-aos-delay="600" href="#" class="mt-5 button is-medium">
             จากราคา&nbsp;<del class="has-text-danger">1,300 บาท</del>&nbsp;ลดเหลือเพียง&nbsp;<b class="has-text-success">390 บาท</b>&nbsp;<u>คลิกเลย!</u>
           </a>
-          <p class="mt-1">หมดเขตวันที่ 31 มกราคม พ.ศ.2565</p>
+          <p data-aos="flip-up" data-aos-delay="900" class="mt-1">หมดเขตวันที่ <u>31 มกราคม พ.ศ.2565</u></p>
         </div>
       </div>
     </div>
@@ -111,19 +114,19 @@
 
         <section class="section mt-5">
           <div class="columns has-text-centered is-variable is-6">
-            <div class="column">
+            <div data-aos="zoom-in" data-aos-delay="150" class="column">
               <img src="/img/icon-sale.png" alt="">
               <p class="has-text-success-dark">ราคาถูกกว่า คุ้มค่ามากกว่า</p>
             </div>
-            <div class="column">
+            <div data-aos="zoom-in" data-aos-delay="300" class="column">
               <img src="/img/icon-beginner.png" alt="">
               <p class="has-text-link-dark">เหมาะสำหรับมือใหม่ที่อยากเป็นโปรแกรมเมอร์</p>
             </div>
-            <div class="column">
+            <div data-aos="zoom-in" data-aos-delay="450" class="column">
               <img src="/img/icon-workshop.png" alt="">
               <p class="has-text-info-dark">มีโปรแกรม Workshop ให้ฝึกฝนระหว่างเรียน</p>
             </div>
-            <div class="column">
+            <div data-aos="zoom-in" data-aos-delay="600" class="column">
               <img src="/img/icon-sheet.png" alt="">
               <p class="has-text-danger-dark">มีบทสรุปเป็นสูตรโกง ไม่ต้องจำโค้ดเยอะ</p>
             </div>
@@ -272,6 +275,10 @@
       </div>
     </div>
   </main>
+
+  <script>
+    AOS.init()
+  </script>
 </body>
 
 </html>
