@@ -20,7 +20,10 @@
   "homepage": "https://github.com/nakorndev/python.nakorncode.com#readme",
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
     "aos": "^2.3.4",
+    "babel-loader": "^8.2.3",
     "bulma": "^0.9.3",
     "copy-webpack-plugin": "^10.0.0",
     "critters": "0.0.14",
