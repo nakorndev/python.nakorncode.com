@@ -1,9 +1,7 @@
-import AOS from 'aos'
 import LazyLoad from 'vanilla-lazyload'
 
 import './sass/main.sass'
 
-AOS.init()
 new LazyLoad()
 
 const modal = document.getElementById('modal')
